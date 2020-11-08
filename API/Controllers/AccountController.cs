@@ -34,7 +34,7 @@ namespace API.Controllers
                 PasswordSalt = hmac.Key
             };
 
-            _context.Users.Add(user);
+            await _context.Users.AddAsync(user);
             await _context.SaveChangesAsync();
 
             return new UserDTO { Username = user.UserName, Token = _tokenService.CreateToken(user)};

@@ -21,8 +21,13 @@
             <e p="20200925200135_InitialCreate.Designer.cs" t="Include" />
             <e p="20200927154704_AddUserPassword.cs" t="Include" />
             <e p="20200927154704_AddUserPassword.Designer.cs" t="Include" />
+            <e p="20201108075326_ExtendedUserEntity.cs" t="Include" />
+            <e p="20201108075326_ExtendedUserEntity.Designer.cs" t="Include" />
             <e p="DataContextModelSnapshot.cs" t="Include" />
           </e>
+          <e p="Seed.cs" t="Include" />
+          <e p="UserRepository.cs" t="Include" />
+          <e p="UserSeedData.json" t="Include" />
         </e>
         <e p="datingapp.db" t="Include" />
         <e p="DTOs" t="Include">
@@ -32,16 +37,19 @@
         </e>
         <e p="Entitties" t="Include">
           <e p="AppUser.cs" t="Include" />
+          <e p="Photo.cs" t="Include" />
         </e>
         <e p="Errors" t="Include">
           <e p="ApiException.cs" t="Include" />
         </e>
         <e p="extensions" t="Include">
           <e p="ApplicationServiceExtensions.cs" t="Include" />
+          <e p="DateTimeExtensions.cs" t="Include" />
           <e p="IdentityServiceExtensions.cs" t="Include" />
         </e>
         <e p="Interfaces" t="Include">
           <e p="ITokenService.cs" t="Include" />
+          <e p="IUserRepository.cs" t="Include" />
         </e>
         <e p="Middlewares" t="Include">
           <e p="ExceptionMiddleware.cs" t="Include" />

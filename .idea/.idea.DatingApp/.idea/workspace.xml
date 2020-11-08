@@ -9,8 +9,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38d31a93-7252-48db-919b-b8004790830e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/API/DTOs/RegisterDTO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/DTOs/RegisterDTO.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API/Data/UserRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API/Interfaces/IUserRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DatingApp/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DatingApp/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DatingApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DatingApp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/API/API.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/Controllers/AccountController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Controllers/AccountController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/Data/Migrations/DataContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Data/Migrations/DataContextModelSnapshot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/Entitties/AppUser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Entitties/AppUser.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/API/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/datingapp.db" beforeDir="false" afterPath="$PROJECT_DIR$/API/datingapp.db" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +29,24 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/612DB704-98AA-4C1F-A827-E0BAA5E826FB/3b/198cd5ad/LocalDataStoreSlot.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/API/Data/UserRepository.cs" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/API/Startup.cs" />
+        <option value="$PROJECT_DIR$/API/Program.cs" />
+        <option value="$PROJECT_DIR$/API/Data/UserSeedData.json" />
+        <option value="$PROJECT_DIR$/API/Entitties/AppUser.cs" />
+        <option value="$PROJECT_DIR$/API/Controllers/AccountController.cs" />
+        <option value="$PROJECT_DIR$/API/Data/Seed.cs" />
+        <option value="$PROJECT_DIR$/API/Interfaces/IUserRepository.cs" />
+        <option value="$PROJECT_DIR$/API/Data/UserRepository.cs" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectId" id="1jqF2UJ7gUwnw4VwhFTQiA2nXwS" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -27,8 +54,11 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="sqlite" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C#" />
   </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.API">
     <configuration name="API" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
@@ -71,13 +101,16 @@
       <option name="presentableId" value="Default" />
       <updated>1604523511910</updated>
       <workItem from="1604523515601" duration="60000" />
+      <workItem from="1604822823074" duration="4729000" />
+      <workItem from="1604847089026" duration="452000" />
+      <workItem from="1604847913392" duration="1825000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -89,8 +122,64 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="90" y="147" key="#Inspection_severity" timestamp="1604849766808">
+      <screen x="0" y="23" width="1680" height="944" />
+    </state>
+    <state x="90" y="147" key="#Inspection_severity/0.23.1680.944@0.23.1680.944" timestamp="1604849766808" />
+    <state x="315" y="144" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604847230208">
+      <screen x="0" y="23" width="1680" height="944" />
+    </state>
+    <state x="315" y="144" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1116.23.1116.733/0.23.1680.944@0.23.1680.944" timestamp="1604847230208" />
+    <state x="315" y="144" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.944@0.23.1680.944" timestamp="1604826998340" />
+    <state width="1557" height="253" key="GridCell.Tab.0.bottom" timestamp="1604849797362">
+      <screen x="0" y="23" width="1680" height="944" />
+    </state>
+    <state width="1557" height="253" key="GridCell.Tab.0.bottom/-1116.23.1116.733/0.23.1680.944@0.23.1680.944" timestamp="1604848596239" />
+    <state width="1557" height="253" key="GridCell.Tab.0.bottom/0.23.1680.941@0.23.1680.941" timestamp="1604836667244" />
+    <state width="1557" height="253" key="GridCell.Tab.0.bottom/0.23.1680.944@0.23.1680.944" timestamp="1604849797362" />
+    <state width="1077" height="253" key="GridCell.Tab.0.bottom/0.23.1680.947@0.23.1680.947" timestamp="1604824554393" />
+    <state width="1557" height="253" key="GridCell.Tab.0.center" timestamp="1604849797361">
+      <screen x="0" y="23" width="1680" height="944" />
+    </state>
+    <state width="1557" height="253" key="GridCell.Tab.0.center/-1116.23.1116.733/0.23.1680.944@0.23.1680.944" timestamp="1604848596238" />
+    <state width="1557" height="253" key="GridCell.Tab.0.center/0.23.1680.941@0.23.1680.941" timestamp="1604836667243" />
+    <state width="1557" height="253" key="GridCell.Tab.0.center/0.23.1680.944@0.23.1680.944" timestamp="1604849797361" />
+    <state width="1077" height="253" key="GridCell.Tab.0.center/0.23.1680.947@0.23.1680.947" timestamp="1604824554392" />
+    <state width="1557" height="253" key="GridCell.Tab.0.left" timestamp="1604849797361">
+      <screen x="0" y="23" width="1680" height="944" />
+    </state>
+    <state width="1557" height="253" key="GridCell.Tab.0.left/-1116.23.1116.733/0.23.1680.944@0.23.1680.944" timestamp="1604848596238" />
+    <state width="1557" height="253" key="GridCell.Tab.0.left/0.23.1680.941@0.23.1680.941" timestamp="1604836667243" />
+    <state width="1557" height="253" key="GridCell.Tab.0.left/0.23.1680.944@0.23.1680.944" timestamp="1604849797361" />
+    <state width="1077" height="253" key="GridCell.Tab.0.left/0.23.1680.947@0.23.1680.947" timestamp="1604824554392" />
+    <state width="1557" height="253" key="GridCell.Tab.0.right" timestamp="1604849797362">
+      <screen x="0" y="23" width="1680" height="944" />
+    </state>
+    <state width="1557" height="253" key="GridCell.Tab.0.right/-1116.23.1116.733/0.23.1680.944@0.23.1680.944" timestamp="1604848596239" />
+    <state width="1557" height="253" key="GridCell.Tab.0.right/0.23.1680.941@0.23.1680.941" timestamp="1604836667244" />
+    <state width="1557" height="253" key="GridCell.Tab.0.right/0.23.1680.944@0.23.1680.944" timestamp="1604849797362" />
+    <state width="1077" height="253" key="GridCell.Tab.0.right/0.23.1680.947@0.23.1680.947" timestamp="1604824554393" />
+    <state x="256" y="192" key="RiderGenerateDialog" timestamp="1604849460403">
+      <screen x="0" y="23" width="1680" height="944" />
+    </state>
+    <state x="256" y="192" key="RiderGenerateDialog/0.23.1680.944@0.23.1680.944" timestamp="1604849460403" />
+    <state x="61" y="134" key="SettingsEditor" timestamp="1604823179117">
+      <screen x="0" y="23" width="1680" height="944" />
+    </state>
+    <state x="61" y="134" key="SettingsEditor/0.23.1680.944@0.23.1680.944" timestamp="1604823179117" />
+    <state x="100" y="123" width="919" height="744" key="VCS.FileHistoryDialog" timestamp="1604825305108">
+      <screen x="0" y="23" width="1680" height="944" />
+    </state>
+    <state x="100" y="123" width="919" height="744" key="VCS.FileHistoryDialog/0.23.1680.944@0.23.1680.944" timestamp="1604825305108" />
+    <state x="170" y="145" width="672" height="676" key="search.everywhere.popup" timestamp="1604849591496">
+      <screen x="0" y="23" width="1680" height="944" />
+    </state>
+    <state x="170" y="145" width="672" height="676" key="search.everywhere.popup/0.23.1680.944@0.23.1680.944" timestamp="1604849591496" />
   </component>
 </project>
