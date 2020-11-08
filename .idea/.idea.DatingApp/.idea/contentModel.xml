@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="API" t="IncludeRecursive">
+        <e p=".gitignore" t="Include" />
+        <e p="API.csproj" t="IncludeRecursive" />
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Controllers" t="Include">
+          <e p="AccountController.cs" t="Include" />
+          <e p="BaseApiController.cs" t="Include" />
+          <e p="BuggyController.cs" t="Include" />
+          <e p="UsersController.cs" t="Include" />
+        </e>
+        <e p="Data" t="Include">
+          <e p="DataContext.cs" t="Include" />
+          <e p="Migrations" t="Include">
+            <e p="20200925200135_InitialCreate.cs" t="Include" />
+            <e p="20200925200135_InitialCreate.Designer.cs" t="Include" />
+            <e p="20200927154704_AddUserPassword.cs" t="Include" />
+            <e p="20200927154704_AddUserPassword.Designer.cs" t="Include" />
+            <e p="DataContextModelSnapshot.cs" t="Include" />
+          </e>
+        </e>
+        <e p="datingapp.db" t="Include" />
+        <e p="DTOs" t="Include">
+          <e p="LoginDTO.cs" t="Include" />
+          <e p="RegisterDTO.cs" t="Include" />
+          <e p="UserDTO.cs" t="Include" />
+        </e>
+        <e p="Entitties" t="Include">
+          <e p="AppUser.cs" t="Include" />
+        </e>
+        <e p="Errors" t="Include">
+          <e p="ApiException.cs" t="Include" />
+        </e>
+        <e p="extensions" t="Include">
+          <e p="ApplicationServiceExtensions.cs" t="Include" />
+          <e p="IdentityServiceExtensions.cs" t="Include" />
+        </e>
+        <e p="Interfaces" t="Include">
+          <e p="ITokenService.cs" t="Include" />
+        </e>
+        <e p="Middlewares" t="Include">
+          <e p="ExceptionMiddleware.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="API.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Services" t="Include">
+          <e p="TokenService.cs" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+      </e>
+      <e p="client/node_modules/@angular/animations" t="IncludeRecursive" />
+      <e p="client/node_modules/@angular/cli" t="IncludeRecursive" />
+      <e p="client/node_modules/@angular/common" t="IncludeRecursive" />
+      <e p="client/node_modules/@angular/compiler" t="IncludeRecursive" />
+      <e p="client/node_modules/@angular/compiler-cli" t="IncludeRecursive" />
+      <e p="client/node_modules/@angular/core" t="IncludeRecursive" />
+      <e p="client/node_modules/@angular/forms" t="IncludeRecursive" />
+      <e p="client/node_modules/@angular/localize" t="IncludeRecursive" />
+      <e p="client/node_modules/@angular/platform-browser" t="IncludeRecursive" />
+      <e p="client/node_modules/@angular/platform-browser-dynamic" t="IncludeRecursive" />
+      <e p="client/node_modules/@angular/router" t="IncludeRecursive" />
+      <e p="client/node_modules/@angular-devkit/architect" t="IncludeRecursive" />
+      <e p="client/node_modules/@angular-devkit/build-angular" t="IncludeRecursive" />
+      <e p="client/node_modules/@angular-devkit/build-optimizer" t="IncludeRecursive" />
+      <e p="client/node_modules/@angular-devkit/build-webpack" t="IncludeRecursive" />
+      <e p="client/node_modules/@angular-devkit/core" t="IncludeRecursive" />
+      <e p="client/node_modules/@angular-devkit/schematics" t="IncludeRecursive" />
+      <e p="client/node_modules/@jsdevtools/coverage-istanbul-loader" t="IncludeRecursive" />
+      <e p="client/node_modules/@ng-bootstrap/ng-bootstrap" t="IncludeRecursive" />
+      <e p="client/node_modules/@ngtools/webpack" t="IncludeRecursive" />
+      <e p="client/node_modules/@types" t="IncludeRecursive">
+        <e p="jasmine" t="IncludeRecursive" />
+        <e p="jasminewd2" t="IncludeRecursive" />
+        <e p="minimatch" t="IncludeRecursive" />
+        <e p="node" t="IncludeRecursive" />
+        <e p="source-list-map" t="IncludeRecursive" />
+      </e>
+      <e p="client/node_modules/acorn" t="IncludeRecursive" />
+      <e p="client/node_modules/aggregate-error" t="IncludeRecursive" />
+      <e p="client/node_modules/ajv" t="IncludeRecursive" />
+      <e p="client/node_modules/ajv-keywords" t="IncludeRecursive" />
+      <e p="client/node_modules/ansi-colors" t="IncludeRecursive" />
+      <e p="client/node_modules/ansi-regex" t="IncludeRecursive" />
+      <e p="client/node_modules/arg" t="IncludeRecursive" />
+      <e p="client/node_modules/array-union" t="IncludeRecursive" />
+      <e p="client/node_modules/blocking-proxy" t="IncludeRecursive" />
+      <e p="client/node_modules/bootstrap" t="IncludeRecursive" />
+      <e p="client/node_modules/bootswatch" t="IncludeRecursive" />
+      <e p="client/node_modules/canonical-path" t="IncludeRecursive" />
+      <e p="client/node_modules/chalk" t="IncludeRecursive" />
+      <e p="client/node_modules/clean-stack" t="IncludeRecursive" />
+      <e p="client/node_modules/cli-cursor" t="IncludeRecursive" />
+      <e p="client/node_modules/cli-spinners" t="IncludeRecursive" />
+      <e p="client/node_modules/codelyzer" t="IncludeRecursive" />
+      <e p="client/node_modules/colorette" t="IncludeRecursive" />
+      <e p="client/node_modules/commander" t="IncludeRecursive" />
+      <e p="client/node_modules/del" t="IncludeRecursive" />
+      <e p="client/node_modules/dependency-graph" t="IncludeRecursive" />
+      <e p="client/node_modules/fast-deep-equal" t="IncludeRecursive" />
+      <e p="client/node_modules/fast-json-stable-stringify" t="IncludeRecursive" />
+      <e p="client/node_modules/font-awesome" t="IncludeRecursive" />
+      <e p="client/node_modules/fsevents" t="IncludeRecursive" />
+      <e p="client/node_modules/globby" t="IncludeRecursive" />
+      <e p="client/node_modules/hash.js" t="IncludeRecursive" />
+      <e p="client/node_modules/ignore" t="IncludeRecursive" />
+      <e p="client/node_modules/indent-string" t="IncludeRecursive" />
+      <e p="client/node_modules/is-docker" t="IncludeRecursive" />
+      <e p="client/node_modules/is-interactive" t="IncludeRecursive" />
+      <e p="client/node_modules/is-path-cwd" t="IncludeRecursive" />
+      <e p="client/node_modules/is-path-in-cwd" t="IncludeRecursive" />
+      <e p="client/node_modules/is-path-inside" t="IncludeRecursive" />
+      <e p="client/node_modules/is-wsl" t="IncludeRecursive" />
+      <e p="client/node_modules/jasmine-core" t="IncludeRecursive" />
+      <e p="client/node_modules/jasmine-spec-reporter" t="IncludeRecursive" />
+      <e p="client/node_modules/jest-worker" t="IncludeRecursive" />
+      <e p="client/node_modules/karma" t="IncludeRecursive" />
+      <e p="client/node_modules/karma-chrome-launcher" t="IncludeRecursive" />
+      <e p="client/node_modules/karma-coverage-istanbul-reporter" t="IncludeRecursive" />
+      <e p="client/node_modules/karma-jasmine" t="IncludeRecursive" />
+      <e p="client/node_modules/karma-jasmine-html-reporter" t="IncludeRecursive" />
+      <e p="client/node_modules/license-webpack-plugin" t="IncludeRecursive" />
+      <e p="client/node_modules/log-symbols" t="IncludeRecursive" />
+      <e p="client/node_modules/magic-string" t="IncludeRecursive" />
+      <e p="client/node_modules/make-dir" t="IncludeRecursive" />
+      <e p="client/node_modules/make-error" t="IncludeRecursive" />
+      <e p="client/node_modules/mimic-fn" t="IncludeRecursive" />
+      <e p="client/node_modules/ngx-bootstrap" t="IncludeRecursive" />
+      <e p="client/node_modules/ngx-toastr" t="IncludeRecursive" />
+      <e p="client/node_modules/onetime" t="IncludeRecursive" />
+      <e p="client/node_modules/open" t="IncludeRecursive" />
+      <e p="client/node_modules/ora" t="IncludeRecursive" />
+      <e p="client/node_modules/p-map" t="IncludeRecursive" />
+      <e p="client/node_modules/path-type" t="IncludeRecursive" />
+      <e p="client/node_modules/portfinder" t="IncludeRecursive" />
+      <e p="client/node_modules/postcss" t="IncludeRecursive" />
+      <e p="client/node_modules/protractor" t="IncludeRecursive" />
+      <e p="client/node_modules/reflect-metadata" t="IncludeRecursive" />
+      <e p="client/node_modules/restore-cursor" t="IncludeRecursive" />
+      <e p="client/node_modules/rollup" t="IncludeRecursive" />
+      <e p="client/node_modules/rxjs" t="IncludeRecursive" />
+      <e p="client/node_modules/schema-utils" t="IncludeRecursive" />
+      <e p="client/node_modules/semver-dsl" t="IncludeRecursive" />
+      <e p="client/node_modules/slash" t="IncludeRecursive" />
+      <e p="client/node_modules/source-map" t="IncludeRecursive" />
+      <e p="client/node_modules/sourcemap-codec" t="IncludeRecursive" />
+      <e p="client/node_modules/strip-ansi" t="IncludeRecursive" />
+      <e p="client/node_modules/symbol-observable" t="IncludeRecursive" />
+      <e p="client/node_modules/terser" t="IncludeRecursive" />
+      <e p="client/node_modules/tree-kill" t="IncludeRecursive" />
+      <e p="client/node_modules/ts-node" t="IncludeRecursive" />
+      <e p="client/node_modules/tslib" t="IncludeRecursive" />
+      <e p="client/node_modules/tslint" t="IncludeRecursive" />
+      <e p="client/node_modules/tsutils" t="IncludeRecursive" />
+      <e p="client/node_modules/uri-js" t="IncludeRecursive" />
+      <e p="client/node_modules/webdriver-js-extender" t="IncludeRecursive" />
+      <e p="client/node_modules/yn" t="IncludeRecursive" />
+      <e p="client/node_modules/zone.js" t="IncludeRecursive" />
+      <e p="DatingApp.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+    <e p="$APPLICATION_CONFIG_DIR$/consoles/db" t="IncludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/extensions" t="IncludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/scratches" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.2/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.2/resharper-host/local/Transient/Rider/v202/SolutionCaches/_DatingApp.-65016691.00" t="ExcludeRecursive" />
+  </component>
+</project>
